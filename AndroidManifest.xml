@@ -307,7 +307,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </activity>
         <activity
             android:name=".derp_art"
-            android:label="DerpFest Art" >
+            android:label="DerpFest - Art" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
 
@@ -316,7 +316,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </activity>
         <activity
             android:name=".derp_color"
-            android:label="DerpFest Colors" >
+            android:label="DerpFest - Colors" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".derp_fresh"
+            android:label="DerpFest - Fresh as fuck" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
 
