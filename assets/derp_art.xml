@@ -25,4 +25,7 @@ day_header entries have a higher priority then hour entries -->
     <random_header image="derp_header_03" />
     <random_header image="derp_header_04" />
     <random_header image="derp_header_05" />
+    <random_header image="derp_header_36" />
+    <random_header image="derp_header_37" />
+    <random_header image="derp_header_38" />
 </daylight_headers>
