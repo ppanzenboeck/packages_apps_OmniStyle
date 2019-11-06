@@ -130,8 +130,8 @@ public class BrowseThemeHeaderActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 DaylightHeaderInfo di = mHeadersList.get(i);
-                //Settings.System.putString(getContentResolver(), STATUS_BAR_CUSTOM_HEADER_IMAGE, mPackageName + "/" + di.mImage);
-                //Settings.System.putString(getContentResolver(), STATUS_BAR_CUSTOM_HEADER_PROVIDER, "static");
+                Settings.System.putString(getContentResolver(), STATUS_BAR_CUSTOM_HEADER_IMAGE, mPackageName + "/" + di.mImage);
+                Settings.System.putString(getContentResolver(), STATUS_BAR_CUSTOM_HEADER_PROVIDER, "static");
                 Toast.makeText(BrowseThemeHeaderActivity.this, R.string.custom_header_image_notice, Toast.LENGTH_LONG).show();
             }
         });
