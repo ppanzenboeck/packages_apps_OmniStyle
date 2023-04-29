@@ -29,7 +29,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         android:theme="@style/Theme.OmniStyle" >
         <activity
             android:name=".BrowseHeaderActivity"
-            android:label="@string/browse_header" >
+            android:label="@string/browse_header"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -37,7 +38,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </activity>
         <activity
             android:name=".PickHeaderActivity"
-            android:label="@string/browse_header">
+            android:label="@string/browse_header"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -46,7 +48,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
         <activity
             android:name=".space_interval"
-            android:label="Space" >
+            android:label="Space"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -55,7 +58,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".du_crot"
-            android:label="Dirty Unicorns" >
+            android:label="Dirty Unicorns"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -64,7 +68,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".ig_fxckingmind"
-            android:label="Fxckingdeathwish's mind" >
+            android:label="Fxckingdeathwish's mind"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -73,7 +78,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".bootleg_style"
-            android:label="Bootleggers Styled Headers" >
+            android:label="Bootleggers Styled Headers"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -82,7 +88,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".clo_aestheticwalls_mix"
-            android:label="Memesis + Pizzheaderz Aesthetic - Vaporwave" >
+            android:label="Memesis + Pizzheaderz Aesthetic - Vaporwave"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -91,7 +98,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".clo_aestheticwalls_sj"
-            android:label="Memesis Aesthetic - Sacred Japan" >
+            android:label="Memesis Aesthetic - Sacred Japan"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -100,7 +108,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".ig_agusfotos"
-            android:label="Agus.laz4rte Repertoire" >
+            android:label="Agus.laz4rte Repertoire"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -109,7 +118,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".ig_conejocelestial"
-            android:label="Conejocelestial's Insight" >
+            android:label="Conejocelestial's Insight"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -118,7 +128,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".derp_avengers"
-            android:label="Avengers" >
+            android:label="Avengers"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -127,7 +138,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
         <activity
             android:name=".comic"
-            android:label="JayRod - JLA, Xmen and Avengers" >
+            android:label="JayRod - JLA, Xmen and Avengers"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -136,7 +148,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         
 	    <activity
 	        android:name=".hentai_header"
-	        android:label="Hentai - Header" >
+	        android:label="Hentai - Header"
+            android:exported="true">
 	        <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -145,7 +158,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
         <activity
             android:name=".naruto"
-            android:label="Naruto" >
+            android:label="Naruto"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -154,7 +168,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
         <activity
             android:name=".sao_header"
-            android:label="Sword Art Online" >
+            android:label="Sword Art Online"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
