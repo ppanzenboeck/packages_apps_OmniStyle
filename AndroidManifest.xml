@@ -115,17 +115,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
-        <activity
-            android:name=".ig_conejocelestial"
-            android:label="Conejocelestial's Insight"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        
+
         <activity
             android:name=".derp_avengers"
             android:label="Avengers"
@@ -135,7 +125,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
+
         <activity
             android:name=".comic"
             android:label="JayRod - JLA, Xmen and Avengers"
@@ -145,7 +135,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
+
 	    <activity
 	        android:name=".hentai_header"
 	        android:label="Hentai - Header"
