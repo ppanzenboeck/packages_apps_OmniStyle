@@ -88,16 +88,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </activity>
         
         <activity
-            android:name=".bootleg_style"
-            android:label="Bootleggers Styled Headers"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        
-        <activity
             android:name=".clo_aestheticwalls_mix"
             android:label="Memesis + Pizzheaderz Aesthetic - Vaporwave"
             android:exported="false">
@@ -150,16 +140,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <activity
             android:name=".derp_owlsome"
             android:label="DerpFest - Owlsome Series"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".derp_avengers"
-            android:label="DerpFest - Avengers"
             android:exported="false">
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
